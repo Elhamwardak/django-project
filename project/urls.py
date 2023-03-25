@@ -19,9 +19,8 @@ from students.views import home
 from students.views import welcome
 
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
-    path("welcome/",welcome)
+    path("welcome/", welcome)
 ]
